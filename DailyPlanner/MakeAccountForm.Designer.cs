@@ -30,13 +30,13 @@
         {
             this.lblLoginInst = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
-            this.txtPwd = new System.Windows.Forms.TextBox();
-            this.btnBackLogin = new System.Windows.Forms.Button();
-            this.txtUser = new System.Windows.Forms.TextBox();
-            this.lblPwd = new System.Windows.Forms.Label();
-            this.lblUser = new System.Windows.Forms.Label();
-            this.lblMakeAccInst = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.txtPwd2 = new System.Windows.Forms.TextBox();
+            this.btnBackLogin2 = new System.Windows.Forms.Button();
+            this.txtUser2 = new System.Windows.Forms.TextBox();
+            this.lblPwd2 = new System.Windows.Forms.Label();
+            this.lblUser2 = new System.Windows.Forms.Label();
+            this.lblMakeAccInst2 = new System.Windows.Forms.Label();
+            this.lblTitle2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblLoginInst
@@ -59,88 +59,88 @@
             this.lblTitle.Size = new System.Drawing.Size(0, 50);
             this.lblTitle.TabIndex = 16;
             // 
-            // txtPwd
+            // txtPwd2
             // 
-            this.txtPwd.Location = new System.Drawing.Point(42, 444);
-            this.txtPwd.Name = "txtPwd";
-            this.txtPwd.Size = new System.Drawing.Size(312, 20);
-            this.txtPwd.TabIndex = 24;
+            this.txtPwd2.Location = new System.Drawing.Point(42, 444);
+            this.txtPwd2.Name = "txtPwd2";
+            this.txtPwd2.Size = new System.Drawing.Size(312, 20);
+            this.txtPwd2.TabIndex = 24;
             // 
-            // btnBackLogin
+            // btnBackLogin2
             // 
-            this.btnBackLogin.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnBackLogin.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBackLogin.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnBackLogin.Location = new System.Drawing.Point(42, 533);
-            this.btnBackLogin.Name = "btnBackLogin";
-            this.btnBackLogin.Size = new System.Drawing.Size(312, 45);
-            this.btnBackLogin.TabIndex = 23;
-            this.btnBackLogin.Text = "Back to Login";
-            this.btnBackLogin.UseVisualStyleBackColor = false;
+            this.btnBackLogin2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnBackLogin2.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBackLogin2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnBackLogin2.Location = new System.Drawing.Point(42, 533);
+            this.btnBackLogin2.Name = "btnBackLogin2";
+            this.btnBackLogin2.Size = new System.Drawing.Size(312, 45);
+            this.btnBackLogin2.TabIndex = 23;
+            this.btnBackLogin2.Text = "Back to Login";
+            this.btnBackLogin2.UseVisualStyleBackColor = false;
             // 
-            // txtUser
+            // txtUser2
             // 
-            this.txtUser.Location = new System.Drawing.Point(42, 345);
-            this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(312, 20);
-            this.txtUser.TabIndex = 22;
+            this.txtUser2.Location = new System.Drawing.Point(42, 345);
+            this.txtUser2.Name = "txtUser2";
+            this.txtUser2.Size = new System.Drawing.Size(312, 20);
+            this.txtUser2.TabIndex = 22;
             // 
-            // lblPwd
+            // lblPwd2
             // 
-            this.lblPwd.AutoSize = true;
-            this.lblPwd.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPwd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblPwd.Location = new System.Drawing.Point(37, 400);
-            this.lblPwd.Name = "lblPwd";
-            this.lblPwd.Size = new System.Drawing.Size(157, 30);
-            this.lblPwd.TabIndex = 21;
-            this.lblPwd.Text = "Password:";
+            this.lblPwd2.AutoSize = true;
+            this.lblPwd2.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPwd2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblPwd2.Location = new System.Drawing.Point(37, 400);
+            this.lblPwd2.Name = "lblPwd2";
+            this.lblPwd2.Size = new System.Drawing.Size(157, 30);
+            this.lblPwd2.TabIndex = 21;
+            this.lblPwd2.Text = "Password:";
             // 
-            // lblUser
+            // lblUser2
             // 
-            this.lblUser.AutoSize = true;
-            this.lblUser.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblUser.Location = new System.Drawing.Point(37, 302);
-            this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(157, 30);
-            this.lblUser.TabIndex = 20;
-            this.lblUser.Text = "Username:";
+            this.lblUser2.AutoSize = true;
+            this.lblUser2.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblUser2.Location = new System.Drawing.Point(37, 302);
+            this.lblUser2.Name = "lblUser2";
+            this.lblUser2.Size = new System.Drawing.Size(157, 30);
+            this.lblUser2.TabIndex = 20;
+            this.lblUser2.Text = "Username:";
             // 
-            // lblMakeAccInst
+            // lblMakeAccInst2
             // 
-            this.lblMakeAccInst.AutoSize = true;
-            this.lblMakeAccInst.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMakeAccInst.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblMakeAccInst.Location = new System.Drawing.Point(66, 155);
-            this.lblMakeAccInst.Name = "lblMakeAccInst";
-            this.lblMakeAccInst.Size = new System.Drawing.Size(269, 90);
-            this.lblMakeAccInst.TabIndex = 19;
-            this.lblMakeAccInst.Text = "Enter a username\r\nand password to\r\nmake an account.";
+            this.lblMakeAccInst2.AutoSize = true;
+            this.lblMakeAccInst2.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMakeAccInst2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblMakeAccInst2.Location = new System.Drawing.Point(66, 155);
+            this.lblMakeAccInst2.Name = "lblMakeAccInst2";
+            this.lblMakeAccInst2.Size = new System.Drawing.Size(269, 90);
+            this.lblMakeAccInst2.TabIndex = 19;
+            this.lblMakeAccInst2.Text = "Enter a username\r\nand password to\r\nmake an account.";
             // 
-            // label2
+            // lblTitle2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(0, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(399, 50);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Daily Planner";
+            this.lblTitle2.AutoSize = true;
+            this.lblTitle2.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblTitle2.Location = new System.Drawing.Point(0, 64);
+            this.lblTitle2.Name = "lblTitle2";
+            this.lblTitle2.Size = new System.Drawing.Size(399, 50);
+            this.lblTitle2.TabIndex = 18;
+            this.lblTitle2.Text = "Daily Planner";
             // 
             // MakeAccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 706);
-            this.Controls.Add(this.txtPwd);
-            this.Controls.Add(this.btnBackLogin);
-            this.Controls.Add(this.txtUser);
-            this.Controls.Add(this.lblPwd);
-            this.Controls.Add(this.lblUser);
-            this.Controls.Add(this.lblMakeAccInst);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtPwd2);
+            this.Controls.Add(this.btnBackLogin2);
+            this.Controls.Add(this.txtUser2);
+            this.Controls.Add(this.lblPwd2);
+            this.Controls.Add(this.lblUser2);
+            this.Controls.Add(this.lblMakeAccInst2);
+            this.Controls.Add(this.lblTitle2);
             this.Controls.Add(this.lblLoginInst);
             this.Controls.Add(this.lblTitle);
             this.Name = "MakeAccountForm";
@@ -153,12 +153,12 @@
         #endregion
         private System.Windows.Forms.Label lblLoginInst;
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.TextBox txtPwd;
-        private System.Windows.Forms.Button btnBackLogin;
-        private System.Windows.Forms.TextBox txtUser;
-        private System.Windows.Forms.Label lblPwd;
-        private System.Windows.Forms.Label lblUser;
-        private System.Windows.Forms.Label lblMakeAccInst;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtPwd2;
+        private System.Windows.Forms.Button btnBackLogin2;
+        private System.Windows.Forms.TextBox txtUser2;
+        private System.Windows.Forms.Label lblPwd2;
+        private System.Windows.Forms.Label lblUser2;
+        private System.Windows.Forms.Label lblMakeAccInst2;
+        private System.Windows.Forms.Label lblTitle2;
     }
 }
