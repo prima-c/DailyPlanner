@@ -37,7 +37,7 @@
             this.btnSeeMoreOne6 = new System.Windows.Forms.Button();
             this.btnMainPage6 = new System.Windows.Forms.Button();
             this.lblTitle6 = new System.Windows.Forms.Label();
-            this.lblUpcomingEvents = new System.Windows.Forms.Label();
+            this.lblUpcomingEvents6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnChangeDate5
@@ -147,23 +147,23 @@
             this.lblTitle6.TabIndex = 62;
             this.lblTitle6.Text = "Daily Planner";
             // 
-            // lblUpcomingEvents
+            // lblUpcomingEvents6
             // 
-            this.lblUpcomingEvents.AutoSize = true;
-            this.lblUpcomingEvents.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUpcomingEvents.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblUpcomingEvents.Location = new System.Drawing.Point(63, 141);
-            this.lblUpcomingEvents.Name = "lblUpcomingEvents";
-            this.lblUpcomingEvents.Size = new System.Drawing.Size(269, 30);
-            this.lblUpcomingEvents.TabIndex = 71;
-            this.lblUpcomingEvents.Text = "Upcoming events:";
+            this.lblUpcomingEvents6.AutoSize = true;
+            this.lblUpcomingEvents6.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUpcomingEvents6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblUpcomingEvents6.Location = new System.Drawing.Point(63, 141);
+            this.lblUpcomingEvents6.Name = "lblUpcomingEvents6";
+            this.lblUpcomingEvents6.Size = new System.Drawing.Size(269, 30);
+            this.lblUpcomingEvents6.TabIndex = 71;
+            this.lblUpcomingEvents6.Text = "Upcoming events:";
             // 
             // SeeEventsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 706);
-            this.Controls.Add(this.lblUpcomingEvents);
+            this.Controls.Add(this.lblUpcomingEvents6);
             this.Controls.Add(this.btnChangeDate5);
             this.Controls.Add(this.btnTitleThree6);
             this.Controls.Add(this.btnSeeMoreThree6);
@@ -191,6 +191,6 @@
         private System.Windows.Forms.Button btnSeeMoreOne6;
         private System.Windows.Forms.Button btnMainPage6;
         private System.Windows.Forms.Label lblTitle6;
-        private System.Windows.Forms.Label lblUpcomingEvents;
+        private System.Windows.Forms.Label lblUpcomingEvents6;
     }
 }
