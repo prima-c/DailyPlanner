@@ -78,6 +78,12 @@
     <Compile Include="SeeDayForm.Designer.cs">
       <DependentUpon>SeeDayForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeeWeekForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeeWeekForm.Designer.cs">
+      <DependentUpon>SeeWeekForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DailyPlannerForm.resx">
       <DependentUpon>DailyPlannerForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +107,9 @@
     </Compile>
     <EmbeddedResource Include="SeeDayForm.resx">
       <DependentUpon>SeeDayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeeWeekForm.resx">
+      <DependentUpon>SeeWeekForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
