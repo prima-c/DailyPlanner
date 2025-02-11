@@ -144,6 +144,7 @@
             this.Controls.Add(this.lblTitle8);
             this.Name = "ChangePasswordForm";
             this.Text = "ChangePasswordForm";
+            this.Load += new System.EventHandler(this.ChangePasswordForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -23,7 +23,7 @@ namespace DailyPlanner
         {
             if (!PassedValidation())
             {
-                MessageBox.Show("Invalid Credentials!", Titles.AppName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Username and password cannot be blank!", Titles.AppName, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

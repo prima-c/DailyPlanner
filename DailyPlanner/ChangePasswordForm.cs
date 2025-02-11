@@ -22,19 +22,33 @@ namespace DailyPlanner
         private bool PassedValidation()
         {
             if (this.txtUser8.Text.Trim().Length == 0 ||
-                this.txtPwdOld8.Text.Trim().Length == 0 ||
-                this.txtPwdNew8.Text.Trim().Length == 0)
+                this.txtPwdOld8.Text.Trim().Length == 0)
                 return false;
             else
                 return true;
 
         }
 
+        private bool DifferentPwd()
+        {
+            if (this.txtPwdOld8.Text == this.txtPwdNew8.Text ||
+                this.txtPwdNew8.Text.Trim().Length == 0)
+                return false;
+            else
+                return true;
+        }
+
         private void btnChangePwd8_Click(object sender, EventArgs e)
         {
             if (!PassedValidation())
             {
-                MessageBox.Show("Invalid Credentials!", Titles.AppName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Invalid credentials!", Titles.AppName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (!DifferentPwd())
+            {
+                MessageBox.Show("New password must be different from old!", Titles.AppName, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -48,6 +62,11 @@ namespace DailyPlanner
         {
             //RUNs a NEW application with the desired form
             Application.Run(new MainPageForm());
+        }
+
+        private void ChangePasswordForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
         }
     }
 }
