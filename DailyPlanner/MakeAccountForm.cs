@@ -27,6 +27,8 @@ namespace DailyPlanner
                 return;
             }
 
+            //Create account
+
             //Close current form
             this.Close();
             //Create a thread to RUN a NEW application with the desired form
