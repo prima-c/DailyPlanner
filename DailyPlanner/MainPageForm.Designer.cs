@@ -91,6 +91,7 @@
             this.btnLogOut3.TabIndex = 34;
             this.btnLogOut3.Text = "Log Out";
             this.btnLogOut3.UseVisualStyleBackColor = false;
+            this.btnLogOut3.Click += new System.EventHandler(this.btnLogOut3_Click);
             // 
             // btnChangePwd3
             // 
@@ -103,6 +104,7 @@
             this.btnChangePwd3.TabIndex = 33;
             this.btnChangePwd3.Text = "Change Password";
             this.btnChangePwd3.UseVisualStyleBackColor = false;
+            this.btnChangePwd3.Click += new System.EventHandler(this.btnChangePwd3_Click);
             // 
             // btnAddEvent3
             // 
@@ -115,6 +117,7 @@
             this.btnAddEvent3.TabIndex = 35;
             this.btnAddEvent3.Text = "Add Event";
             this.btnAddEvent3.UseVisualStyleBackColor = false;
+            this.btnAddEvent3.Click += new System.EventHandler(this.btnAddEvent3_Click);
             // 
             // btnSeeEvents3
             // 
@@ -127,6 +130,7 @@
             this.btnSeeEvents3.TabIndex = 36;
             this.btnSeeEvents3.Text = "See Events";
             this.btnSeeEvents3.UseVisualStyleBackColor = false;
+            this.btnSeeEvents3.Click += new System.EventHandler(this.btnSeeEvents3_Click);
             // 
             // btnSeeDay3
             // 
@@ -139,6 +143,7 @@
             this.btnSeeDay3.TabIndex = 37;
             this.btnSeeDay3.Text = "See Day";
             this.btnSeeDay3.UseVisualStyleBackColor = false;
+            this.btnSeeDay3.Click += new System.EventHandler(this.btnSeeDay3_Click);
             // 
             // btnSeeWeek3
             // 
@@ -151,6 +156,7 @@
             this.btnSeeWeek3.TabIndex = 38;
             this.btnSeeWeek3.Text = "See Week";
             this.btnSeeWeek3.UseVisualStyleBackColor = false;
+            this.btnSeeWeek3.Click += new System.EventHandler(this.btnSeeWeek3_Click);
             // 
             // MainPageForm
             // 
@@ -169,6 +175,7 @@
             this.Controls.Add(this.lblTitle3);
             this.Name = "MainPageForm";
             this.Text = "MainPageForm";
+            this.Load += new System.EventHandler(this.MainPageForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

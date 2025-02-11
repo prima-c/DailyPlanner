@@ -82,6 +82,7 @@
     <Compile Include="MakeAccountForm.Designer.cs">
       <DependentUpon>MakeAccountForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Titles.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SeeDayForm.cs">

@@ -16,5 +16,10 @@ namespace DailyPlanner
         {
             InitializeComponent();
         }
+
+        private void DailyPlannerForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

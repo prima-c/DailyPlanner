@@ -137,6 +137,7 @@
             this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Name = "DailyPlannerForm";
             this.Text = "Daily Planner Application";
+            this.Load += new System.EventHandler(this.DailyPlannerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

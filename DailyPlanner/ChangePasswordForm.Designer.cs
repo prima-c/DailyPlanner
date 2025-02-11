@@ -57,6 +57,7 @@
             this.btnChangePwd8.TabIndex = 30;
             this.btnChangePwd8.Text = "Change Password";
             this.btnChangePwd8.UseVisualStyleBackColor = false;
+            this.btnChangePwd8.Click += new System.EventHandler(this.btnChangePwd8_Click);
             // 
             // txtUser8
             // 

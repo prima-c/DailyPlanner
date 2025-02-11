@@ -16,7 +16,7 @@ namespace DailyPlanner
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DailyPlannerForm());
+            Application.Run(new LoginForm());
         }
     }
 }

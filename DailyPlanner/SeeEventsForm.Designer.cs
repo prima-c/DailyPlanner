@@ -135,6 +135,7 @@
             this.btnMainPage6.TabIndex = 63;
             this.btnMainPage6.Text = "Main Page";
             this.btnMainPage6.UseVisualStyleBackColor = false;
+            this.btnMainPage6.Click += new System.EventHandler(this.btnMainPage6_Click);
             // 
             // lblTitle6
             // 

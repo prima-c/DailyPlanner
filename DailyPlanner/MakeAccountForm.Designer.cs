@@ -77,6 +77,7 @@
             this.btnBackLogin2.TabIndex = 23;
             this.btnBackLogin2.Text = "Back to Login";
             this.btnBackLogin2.UseVisualStyleBackColor = false;
+            this.btnBackLogin2.Click += new System.EventHandler(this.btnBackLogin2_Click);
             // 
             // txtUser2
             // 

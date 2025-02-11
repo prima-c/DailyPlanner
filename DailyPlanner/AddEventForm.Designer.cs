@@ -87,6 +87,7 @@
             this.btnUpdateEvent7.TabIndex = 73;
             this.btnUpdateEvent7.Text = "Update Event";
             this.btnUpdateEvent7.UseVisualStyleBackColor = false;
+            this.btnUpdateEvent7.Click += new System.EventHandler(this.btnUpdateEvent7_Click);
             // 
             // lblTitle7
             // 

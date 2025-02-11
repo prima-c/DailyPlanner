@@ -50,6 +50,7 @@
             this.btnMainPage4.TabIndex = 42;
             this.btnMainPage4.Text = "Main Page";
             this.btnMainPage4.UseVisualStyleBackColor = false;
+            this.btnMainPage4.Click += new System.EventHandler(this.btnMainPage4_Click);
             // 
             // lblTitle4
             // 

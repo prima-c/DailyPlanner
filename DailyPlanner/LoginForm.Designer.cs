@@ -49,6 +49,7 @@
             this.btnMakeAcc1.TabIndex = 15;
             this.btnMakeAcc1.Text = "Make Account";
             this.btnMakeAcc1.UseVisualStyleBackColor = false;
+            this.btnMakeAcc1.Click += new System.EventHandler(this.btnMakeAcc1_Click);
             // 
             // txtPwd1
             // 
@@ -136,6 +137,7 @@
             this.Controls.Add(this.lblTitle1);
             this.Name = "LoginForm";
             this.Text = "LoginForm";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
