@@ -135,6 +135,11 @@
             // cmbType7
             // 
             this.cmbType7.FormattingEnabled = true;
+            this.cmbType7.Items.AddRange(new object[] {
+            "Meeting",
+            "Appointment",
+            "Exam",
+            "Deadline"});
             this.cmbType7.Location = new System.Drawing.Point(127, 321);
             this.cmbType7.Name = "cmbType7";
             this.cmbType7.Size = new System.Drawing.Size(226, 21);
@@ -165,6 +170,11 @@
             // cmbStatus7
             // 
             this.cmbStatus7.FormattingEnabled = true;
+            this.cmbStatus7.Items.AddRange(new object[] {
+            "Not started",
+            "In progress",
+            "Complete",
+            "Recurring"});
             this.cmbStatus7.Location = new System.Drawing.Point(167, 441);
             this.cmbStatus7.Name = "cmbStatus7";
             this.cmbStatus7.Size = new System.Drawing.Size(186, 21);

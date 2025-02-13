@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DailyPlanner.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,12 +21,31 @@ namespace DailyPlanner
 
         private void btnUpdateEvent7_Click(object sender, EventArgs e)
         {
+            if (!PassedValidation())
+            {
+                MessageBox.Show("Must complete Title and Date fields!", Titles.AppName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+
+            //Create account
+
             //Close current form
             this.Close();
             //Create a thread to RUN a NEW application with the desired form
             Thread t = new Thread(new ThreadStart(OpenMainPageForm));
             t.Start();
         }
+
+        private bool PassedValidation()
+        {
+            if (this.txtTitle7.Text.Trim().Length == 0 ||
+                this.txtDate7.Text.Trim().Length == 0)
+                return false;
+            else
+                return true;
+        }
+
         private void OpenMainPageForm()
         {
             //RUNs a NEW application with the desired form

@@ -44,6 +44,14 @@ namespace DailyPlanner
             else
                 return true;
 
+            /*
+            if (this.txtUser2.Text in users.username &&
+            this.txtPwd2.Text == users[username].password)
+                return true
+            else
+                return false
+             */
+
         }
         private void OpenMainPageForm()
         {

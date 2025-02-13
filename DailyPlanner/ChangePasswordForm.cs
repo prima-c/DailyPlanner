@@ -48,7 +48,7 @@ namespace DailyPlanner
 
             if (!DifferentPwd())
             {
-                MessageBox.Show("New password must be different from old!", Titles.AppName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("New password cannot be blank and must be different from old!", Titles.AppName, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
