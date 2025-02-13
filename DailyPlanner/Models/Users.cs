@@ -11,9 +11,10 @@ namespace DailyPlanner.Models
         public static string username;
         public static string password;
 
-        public static List<Users> 
+        public static List<Users> GetUserData(string file)
         {
-        List<Users> users = new List<Users>();
+            List<Users> users = new List<Users>();
+        }
         
     }
 
