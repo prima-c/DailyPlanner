@@ -8,8 +8,14 @@ namespace DailyPlanner.Models
 {
     public static class Users
     {
-        public static string Username;
-        public static string Password;
+        public static string username;
+        public static string password;
+
+        public static List<Users> 
+        {
+        List<Users> users = new List<Users>();
+        
     }
+
 
 }

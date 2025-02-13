@@ -8,6 +8,11 @@ namespace DailyPlanner.Models
 {
     public static class Events
     {
-        public static string Title;
+        public static string title;
+        public static string type;
+        public static string date;
+        public static string progress;
+        public static string recurring;
+        public static string description;
     }
 }
