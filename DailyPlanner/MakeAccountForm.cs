@@ -26,9 +26,12 @@ namespace DailyPlanner
                 MessageBox.Show("Username and password cannot be blank!", Titles.AppName, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            
 
             //Create account
+
+            /*
+            User user = new User;
+             */
 
             //Close current form
             this.Close();

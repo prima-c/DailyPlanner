@@ -28,7 +28,11 @@ namespace DailyPlanner
             }
 
 
-            //Create account
+            /* If event already exists in event list, replace old event with new
+             * If event does not already exist in event list, create new event
+             */
+
+
 
             //Close current form
             this.Close();
