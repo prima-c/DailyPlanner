@@ -20,15 +20,15 @@ namespace DailyPlanner.Models
 
         }
 
-        /*
+        
         public List<Event> GetEvent()
         {
-            List<Event> event = new List<Event>();
-            string file = CurrentPath.GetDbasePath() + "\\" + "EventData.txt";
-            event = ReadWriteTextFile.GetEvent(file);
-            return Event;
+            List<Event> events = new List<Event>();
+            string file = CurrentPath.GetDatabasePath() + "\\" + "EventData.txt";
+            events = Services.ReadWriteTextFile.GetEventData(file);
+            return events;
         }
-        */
+        
 
     }
 }

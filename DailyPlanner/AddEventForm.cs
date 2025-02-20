@@ -30,6 +30,9 @@ namespace DailyPlanner
 
             /* If event already exists in event list, replace old event with new
              * If event does not already exist in event list, create new event
+             
+            If ____
+
              */
 
 
