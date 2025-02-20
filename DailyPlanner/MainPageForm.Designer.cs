@@ -46,6 +46,7 @@
             this.txtPwd.Name = "txtPwd";
             this.txtPwd.Size = new System.Drawing.Size(312, 20);
             this.txtPwd.TabIndex = 31;
+            this.txtPwd.TextChanged += new System.EventHandler(this.txtPwd_TextChanged);
             // 
             // lblSearch3
             // 

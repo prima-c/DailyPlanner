@@ -18,6 +18,11 @@ namespace DailyPlanner
             InitializeComponent();
         }
 
+        private void MainPageForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
+
         private void btnLogOut3_Click(object sender, EventArgs e)
         {
             //Close current form
@@ -30,11 +35,6 @@ namespace DailyPlanner
         {
             //RUNs a NEW application with the desired form
             Application.Run(new LoginForm());
-        }
-
-        private void MainPageForm_Load(object sender, EventArgs e)
-        {
-            this.CenterToScreen();
         }
 
         private void btnAddEvent3_Click(object sender, EventArgs e)
@@ -104,6 +104,11 @@ namespace DailyPlanner
         {
             //RUNs a NEW application with the desired form
             Application.Run(new ChangePasswordForm());
+        }
+
+        private void txtPwd_TextChanged(object sender, EventArgs e)
+        {
+            String search = txtPwd.Text;
         }
     }
 }

@@ -19,6 +19,11 @@ namespace DailyPlanner
             InitializeComponent();
         }
 
+        private void AddEventForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
+
         private void btnUpdateEvent7_Click(object sender, EventArgs e)
         {
             if (!PassedValidation())
@@ -28,12 +33,7 @@ namespace DailyPlanner
             }
 
 
-            /* If event already exists in event list, replace old event with new
-             * If event does not already exist in event list, create new event
-             
-            If ____
-
-             */
+            // Add event
 
 
 

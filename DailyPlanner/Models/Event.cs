@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DailyPlanner.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,11 +22,11 @@ namespace DailyPlanner.Models
         }
 
         
-        public List<Event> GetEvent()
+        public List<Event> GetEvents()
         {
             List<Event> events = new List<Event>();
             string file = CurrentPath.GetDatabasePath() + "\\" + "EventData.txt";
-            events = Services.ReadWriteTextFile.GetEventData(file);
+            events = ReadWriteTextFile.GetEventData(file);
             return events;
         }
         

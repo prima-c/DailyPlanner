@@ -18,6 +18,11 @@ namespace DailyPlanner
             InitializeComponent();
         }
 
+        private void SeeEventsForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
+
         private void btnMainPage6_Click(object sender, EventArgs e)
         {
             //Close current form
