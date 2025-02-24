@@ -28,175 +28,175 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmbStatus7 = new System.Windows.Forms.ComboBox();
-            this.lblStatus7 = new System.Windows.Forms.Label();
-            this.lblType7 = new System.Windows.Forms.Label();
-            this.cmbType7 = new System.Windows.Forms.ComboBox();
-            this.txtDesc7 = new System.Windows.Forms.TextBox();
-            this.lblDesc7 = new System.Windows.Forms.Label();
-            this.lblDate7 = new System.Windows.Forms.Label();
-            this.txtDate7 = new System.Windows.Forms.TextBox();
-            this.lblTitleDesc7 = new System.Windows.Forms.Label();
-            this.txtTitle7 = new System.Windows.Forms.TextBox();
-            this.btnUpdateEvent7 = new System.Windows.Forms.Button();
-            this.lblTitle7 = new System.Windows.Forms.Label();
-            this.lblCompleteFields7 = new System.Windows.Forms.Label();
+            this.cmbStatus9 = new System.Windows.Forms.ComboBox();
+            this.lblStatus9 = new System.Windows.Forms.Label();
+            this.lblType9 = new System.Windows.Forms.Label();
+            this.cmbType9 = new System.Windows.Forms.ComboBox();
+            this.txtDesc9 = new System.Windows.Forms.TextBox();
+            this.lblDesc9 = new System.Windows.Forms.Label();
+            this.lblDate9 = new System.Windows.Forms.Label();
+            this.txtDate9 = new System.Windows.Forms.TextBox();
+            this.lblTitleDesc9 = new System.Windows.Forms.Label();
+            this.txtTitle9 = new System.Windows.Forms.TextBox();
+            this.c = new System.Windows.Forms.Button();
+            this.lblTitle9 = new System.Windows.Forms.Label();
+            this.lblEditFields9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // cmbStatus7
+            // cmbStatus9
             // 
-            this.cmbStatus7.FormattingEnabled = true;
-            this.cmbStatus7.Items.AddRange(new object[] {
+            this.cmbStatus9.FormattingEnabled = true;
+            this.cmbStatus9.Items.AddRange(new object[] {
             "Not started",
             "In progress",
             "Complete",
             "Recurring"});
-            this.cmbStatus7.Location = new System.Drawing.Point(167, 441);
-            this.cmbStatus7.Name = "cmbStatus7";
-            this.cmbStatus7.Size = new System.Drawing.Size(186, 21);
-            this.cmbStatus7.TabIndex = 103;
+            this.cmbStatus9.Location = new System.Drawing.Point(167, 441);
+            this.cmbStatus9.Name = "cmbStatus9";
+            this.cmbStatus9.Size = new System.Drawing.Size(186, 21);
+            this.cmbStatus9.TabIndex = 103;
             // 
-            // lblStatus7
+            // lblStatus9
             // 
-            this.lblStatus7.AutoSize = true;
-            this.lblStatus7.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblStatus7.Location = new System.Drawing.Point(36, 434);
-            this.lblStatus7.Name = "lblStatus7";
-            this.lblStatus7.Size = new System.Drawing.Size(125, 30);
-            this.lblStatus7.TabIndex = 102;
-            this.lblStatus7.Text = "Status:";
+            this.lblStatus9.AutoSize = true;
+            this.lblStatus9.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblStatus9.Location = new System.Drawing.Point(36, 434);
+            this.lblStatus9.Name = "lblStatus9";
+            this.lblStatus9.Size = new System.Drawing.Size(125, 30);
+            this.lblStatus9.TabIndex = 102;
+            this.lblStatus9.Text = "Status:";
             // 
-            // lblType7
+            // lblType9
             // 
-            this.lblType7.AutoSize = true;
-            this.lblType7.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblType7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblType7.Location = new System.Drawing.Point(36, 313);
-            this.lblType7.Name = "lblType7";
-            this.lblType7.Size = new System.Drawing.Size(93, 30);
-            this.lblType7.TabIndex = 101;
-            this.lblType7.Text = "Type:";
+            this.lblType9.AutoSize = true;
+            this.lblType9.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblType9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblType9.Location = new System.Drawing.Point(36, 313);
+            this.lblType9.Name = "lblType9";
+            this.lblType9.Size = new System.Drawing.Size(93, 30);
+            this.lblType9.TabIndex = 101;
+            this.lblType9.Text = "Type:";
             // 
-            // cmbType7
+            // cmbType9
             // 
-            this.cmbType7.FormattingEnabled = true;
-            this.cmbType7.Items.AddRange(new object[] {
+            this.cmbType9.FormattingEnabled = true;
+            this.cmbType9.Items.AddRange(new object[] {
             "Meeting",
             "Appointment",
             "Exam",
             "Deadline"});
-            this.cmbType7.Location = new System.Drawing.Point(127, 321);
-            this.cmbType7.Name = "cmbType7";
-            this.cmbType7.Size = new System.Drawing.Size(226, 21);
-            this.cmbType7.TabIndex = 100;
+            this.cmbType9.Location = new System.Drawing.Point(127, 321);
+            this.cmbType9.Name = "cmbType9";
+            this.cmbType9.Size = new System.Drawing.Size(226, 21);
+            this.cmbType9.TabIndex = 100;
             // 
-            // txtDesc7
+            // txtDesc9
             // 
-            this.txtDesc7.Location = new System.Drawing.Point(127, 501);
-            this.txtDesc7.Name = "txtDesc7";
-            this.txtDesc7.Size = new System.Drawing.Size(226, 20);
-            this.txtDesc7.TabIndex = 99;
+            this.txtDesc9.Location = new System.Drawing.Point(127, 501);
+            this.txtDesc9.Name = "txtDesc9";
+            this.txtDesc9.Size = new System.Drawing.Size(226, 20);
+            this.txtDesc9.TabIndex = 99;
             // 
-            // lblDesc7
+            // lblDesc9
             // 
-            this.lblDesc7.AutoSize = true;
-            this.lblDesc7.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesc7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblDesc7.Location = new System.Drawing.Point(36, 493);
-            this.lblDesc7.Name = "lblDesc7";
-            this.lblDesc7.Size = new System.Drawing.Size(93, 30);
-            this.lblDesc7.TabIndex = 98;
-            this.lblDesc7.Text = "Desc:";
+            this.lblDesc9.AutoSize = true;
+            this.lblDesc9.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDesc9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblDesc9.Location = new System.Drawing.Point(36, 493);
+            this.lblDesc9.Name = "lblDesc9";
+            this.lblDesc9.Size = new System.Drawing.Size(93, 30);
+            this.lblDesc9.TabIndex = 98;
+            this.lblDesc9.Text = "Desc:";
             // 
-            // lblDate7
+            // lblDate9
             // 
-            this.lblDate7.AutoSize = true;
-            this.lblDate7.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblDate7.Location = new System.Drawing.Point(36, 372);
-            this.lblDate7.Name = "lblDate7";
-            this.lblDate7.Size = new System.Drawing.Size(93, 30);
-            this.lblDate7.TabIndex = 97;
-            this.lblDate7.Text = "Date:";
+            this.lblDate9.AutoSize = true;
+            this.lblDate9.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblDate9.Location = new System.Drawing.Point(36, 372);
+            this.lblDate9.Name = "lblDate9";
+            this.lblDate9.Size = new System.Drawing.Size(93, 30);
+            this.lblDate9.TabIndex = 97;
+            this.lblDate9.Text = "Date:";
             // 
-            // txtDate7
+            // txtDate9
             // 
-            this.txtDate7.Location = new System.Drawing.Point(127, 380);
-            this.txtDate7.Name = "txtDate7";
-            this.txtDate7.Size = new System.Drawing.Size(226, 20);
-            this.txtDate7.TabIndex = 96;
+            this.txtDate9.Location = new System.Drawing.Point(127, 380);
+            this.txtDate9.Name = "txtDate9";
+            this.txtDate9.Size = new System.Drawing.Size(226, 20);
+            this.txtDate9.TabIndex = 96;
             // 
-            // lblTitleDesc7
+            // lblTitleDesc9
             // 
-            this.lblTitleDesc7.AutoSize = true;
-            this.lblTitleDesc7.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitleDesc7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblTitleDesc7.Location = new System.Drawing.Point(36, 249);
-            this.lblTitleDesc7.Name = "lblTitleDesc7";
-            this.lblTitleDesc7.Size = new System.Drawing.Size(109, 30);
-            this.lblTitleDesc7.TabIndex = 95;
-            this.lblTitleDesc7.Text = "Title:";
+            this.lblTitleDesc9.AutoSize = true;
+            this.lblTitleDesc9.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitleDesc9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblTitleDesc9.Location = new System.Drawing.Point(36, 249);
+            this.lblTitleDesc9.Name = "lblTitleDesc9";
+            this.lblTitleDesc9.Size = new System.Drawing.Size(109, 30);
+            this.lblTitleDesc9.TabIndex = 95;
+            this.lblTitleDesc9.Text = "Title:";
             // 
-            // txtTitle7
+            // txtTitle9
             // 
-            this.txtTitle7.Location = new System.Drawing.Point(142, 256);
-            this.txtTitle7.Name = "txtTitle7";
-            this.txtTitle7.Size = new System.Drawing.Size(211, 20);
-            this.txtTitle7.TabIndex = 94;
+            this.txtTitle9.Location = new System.Drawing.Point(142, 256);
+            this.txtTitle9.Name = "txtTitle9";
+            this.txtTitle9.Size = new System.Drawing.Size(211, 20);
+            this.txtTitle9.TabIndex = 94;
             // 
-            // btnUpdateEvent7
+            // c
             // 
-            this.btnUpdateEvent7.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnUpdateEvent7.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdateEvent7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnUpdateEvent7.Location = new System.Drawing.Point(41, 607);
-            this.btnUpdateEvent7.Name = "btnUpdateEvent7";
-            this.btnUpdateEvent7.Size = new System.Drawing.Size(312, 45);
-            this.btnUpdateEvent7.TabIndex = 92;
-            this.btnUpdateEvent7.Text = "Update Event";
-            this.btnUpdateEvent7.UseVisualStyleBackColor = false;
+            this.c.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.c.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.c.Location = new System.Drawing.Point(41, 607);
+            this.c.Name = "c";
+            this.c.Size = new System.Drawing.Size(312, 45);
+            this.c.TabIndex = 92;
+            this.c.Text = "Update Event";
+            this.c.UseVisualStyleBackColor = false;
             // 
-            // lblTitle7
+            // lblTitle9
             // 
-            this.lblTitle7.AutoSize = true;
-            this.lblTitle7.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblTitle7.Location = new System.Drawing.Point(0, 55);
-            this.lblTitle7.Name = "lblTitle7";
-            this.lblTitle7.Size = new System.Drawing.Size(399, 50);
-            this.lblTitle7.TabIndex = 91;
-            this.lblTitle7.Text = "Daily Planner";
+            this.lblTitle9.AutoSize = true;
+            this.lblTitle9.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblTitle9.Location = new System.Drawing.Point(0, 55);
+            this.lblTitle9.Name = "lblTitle9";
+            this.lblTitle9.Size = new System.Drawing.Size(399, 50);
+            this.lblTitle9.TabIndex = 91;
+            this.lblTitle9.Text = "Daily Planner";
             // 
-            // lblCompleteFields7
+            // lblEditFields9
             // 
-            this.lblCompleteFields7.AutoSize = true;
-            this.lblCompleteFields7.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCompleteFields7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCompleteFields7.Location = new System.Drawing.Point(62, 143);
-            this.lblCompleteFields7.Name = "lblCompleteFields7";
-            this.lblCompleteFields7.Size = new System.Drawing.Size(285, 60);
-            this.lblCompleteFields7.TabIndex = 104;
-            this.lblCompleteFields7.Text = "You can edit\r\nthe fields below.";
+            this.lblEditFields9.AutoSize = true;
+            this.lblEditFields9.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEditFields9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblEditFields9.Location = new System.Drawing.Point(62, 143);
+            this.lblEditFields9.Name = "lblEditFields9";
+            this.lblEditFields9.Size = new System.Drawing.Size(285, 60);
+            this.lblEditFields9.TabIndex = 104;
+            this.lblEditFields9.Text = "You can edit\r\nthe fields below.";
             // 
             // EventForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 706);
-            this.Controls.Add(this.lblCompleteFields7);
-            this.Controls.Add(this.cmbStatus7);
-            this.Controls.Add(this.lblStatus7);
-            this.Controls.Add(this.lblType7);
-            this.Controls.Add(this.cmbType7);
-            this.Controls.Add(this.txtDesc7);
-            this.Controls.Add(this.lblDesc7);
-            this.Controls.Add(this.lblDate7);
-            this.Controls.Add(this.txtDate7);
-            this.Controls.Add(this.lblTitleDesc7);
-            this.Controls.Add(this.txtTitle7);
-            this.Controls.Add(this.btnUpdateEvent7);
-            this.Controls.Add(this.lblTitle7);
+            this.Controls.Add(this.lblEditFields9);
+            this.Controls.Add(this.cmbStatus9);
+            this.Controls.Add(this.lblStatus9);
+            this.Controls.Add(this.lblType9);
+            this.Controls.Add(this.cmbType9);
+            this.Controls.Add(this.txtDesc9);
+            this.Controls.Add(this.lblDesc9);
+            this.Controls.Add(this.lblDate9);
+            this.Controls.Add(this.txtDate9);
+            this.Controls.Add(this.lblTitleDesc9);
+            this.Controls.Add(this.txtTitle9);
+            this.Controls.Add(this.c);
+            this.Controls.Add(this.lblTitle9);
             this.Name = "EventForm";
             this.Text = "EventForm";
             this.ResumeLayout(false);
@@ -206,18 +206,18 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cmbStatus7;
-        private System.Windows.Forms.Label lblStatus7;
-        private System.Windows.Forms.Label lblType7;
-        private System.Windows.Forms.ComboBox cmbType7;
-        private System.Windows.Forms.TextBox txtDesc7;
-        private System.Windows.Forms.Label lblDesc7;
-        private System.Windows.Forms.Label lblDate7;
-        private System.Windows.Forms.TextBox txtDate7;
-        private System.Windows.Forms.Label lblTitleDesc7;
-        private System.Windows.Forms.TextBox txtTitle7;
-        private System.Windows.Forms.Button btnUpdateEvent7;
-        private System.Windows.Forms.Label lblTitle7;
-        private System.Windows.Forms.Label lblCompleteFields7;
+        private System.Windows.Forms.ComboBox cmbStatus9;
+        private System.Windows.Forms.Label lblStatus9;
+        private System.Windows.Forms.Label lblType9;
+        private System.Windows.Forms.ComboBox cmbType9;
+        private System.Windows.Forms.TextBox txtDesc9;
+        private System.Windows.Forms.Label lblDesc9;
+        private System.Windows.Forms.Label lblDate9;
+        private System.Windows.Forms.TextBox txtDate9;
+        private System.Windows.Forms.Label lblTitleDesc9;
+        private System.Windows.Forms.TextBox txtTitle9;
+        private System.Windows.Forms.Button c;
+        private System.Windows.Forms.Label lblTitle9;
+        private System.Windows.Forms.Label lblEditFields9;
     }
 }

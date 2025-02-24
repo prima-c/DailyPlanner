@@ -35,7 +35,26 @@ namespace DailyPlanner
 
         private void SelectedEvent(object sender, EventArgs e)
         {
-            // display selected
+            /*
+            var selected = (from ev in events
+                            where ev.title == xxxxx.SelectedValue.ToString()
+                            select new
+                            {
+                                title = this.lblTitle9,
+                                type = this.lblType9,
+                                date = this.lblDate9,
+                                status = this.lblStatus9,
+                                desc = this.lblDesc9
+                            }).ToList();
+            if (selected.Count > 0)
+            {
+                this.lblTitle9.Text = selected[0].title;
+                this.lblType9.Text = selected[0].type;
+                this.lblDate9.Text = selected[0].date;
+                this.lblStatus9.Text = selected[0].status;
+                this.lblDesc9.Text = selected[0].desc;
+            }
+            */
         }
     }
 }

@@ -1,1 +1,4 @@
-﻿
+﻿Birthday Party|0218|Meeting|Completed|Write b-day card
+Math Hmwk|0219|Deadline|In Progress|Ask for help on #3
+Eye Doctor|0219|Appointment|Not Started|Bring glasses
+English Quiz|0220|Exam|Not Started|Reread ch. 6-8

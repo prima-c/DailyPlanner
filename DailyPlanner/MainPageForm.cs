@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DailyPlanner.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -106,9 +107,28 @@ namespace DailyPlanner
             Application.Run(new ChangePasswordForm());
         }
 
+        //Search
+
+        List<Event> events = new List<Event>();
+
+        private void GetEvents()
+        {
+            Event eventObj = new Event();
+            events = eventObj.GetEvents();
+        }
+
         private void txtPwd_TextChanged(object sender, EventArgs e)
         {
             String search = txtPwd.Text;
+            foreach (var ev in events)
+            {
+                if (ev.title.Contains(search))
+                {
+                    //Textbox should display suggested title
+                    txtPwd.Text = ev.title;
+                    return;
+                }
+            }
         }
     }
 }
