@@ -16,10 +16,13 @@ namespace DailyPlanner
     {
 
         List<Event> events = new List<Event>();
+        String SelectedValue = null;
 
-        public EventForm()
+        public EventForm(string SelectedValue)
         {
             InitializeComponent();
+            this.SelectedValue = SelectedValue;
+
         }
         private void EventForm_Load(object sender, EventArgs e)
         {
@@ -33,11 +36,12 @@ namespace DailyPlanner
             events = eventObj.GetEvents();
         }
 
+
         private void SelectedEvent(object sender, EventArgs e)
         {
-            /*
+            
             var selected = (from ev in events
-                            where ev.title == xxxxx.SelectedValue.ToString()
+                            where ev.title == SelectedValue.ToString()
                             select new
                             {
                                 title = this.lblTitle9,
@@ -46,6 +50,7 @@ namespace DailyPlanner
                                 status = this.lblStatus9,
                                 desc = this.lblDesc9
                             }).ToList();
+            /*
             if (selected.Count > 0)
             {
                 this.lblTitle9.Text = selected[0].title;

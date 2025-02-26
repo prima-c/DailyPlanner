@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -124,7 +125,7 @@ namespace DailyPlanner
             {
                 if (ev.title.Contains(search))
                 {
-                    //Textbox should display suggested title
+                    //Textbox displays suggested title
                     txtPwd.Text = ev.title;
                     return;
                 }
