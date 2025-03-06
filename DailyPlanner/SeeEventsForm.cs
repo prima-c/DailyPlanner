@@ -42,6 +42,13 @@ namespace DailyPlanner
             //RUNs a NEW application with the desired form
             Application.Run(new MainPageForm());
         }
+
+        private void GetEvents()
+        {
+            Event eventObj = new Event();
+            events = eventObj.GetEvents();
+        }
+
         private void SetControls()
         {
             if (events.Count > 0)
