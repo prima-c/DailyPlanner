@@ -19,6 +19,11 @@ namespace DailyPlanner
             InitializeComponent();
         }
 
+        private void MakeAccountForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
+
         private void btnBackLogin2_Click(object sender, EventArgs e)
         {
             if (!PassedValidation())

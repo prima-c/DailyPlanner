@@ -200,6 +200,7 @@
             this.Controls.Add(this.lblTitle7);
             this.Name = "AddEventForm";
             this.Text = "AddEventForm";
+            this.Load += new System.EventHandler(this.AddEventForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

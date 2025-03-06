@@ -31,5 +31,10 @@ namespace DailyPlanner
             //RUNs a NEW application with the desired form
             Application.Run(new MainPageForm());
         }
+
+        private void SeeWeekForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
     }
 }

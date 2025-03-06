@@ -163,6 +163,7 @@
             this.Controls.Add(this.lblTitle4);
             this.Name = "SeeDayForm";
             this.Text = "SeeDayForm";
+            this.Load += new System.EventHandler(this.SeeDayForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

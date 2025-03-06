@@ -38,7 +38,7 @@
             this.txtDate9 = new System.Windows.Forms.TextBox();
             this.lblTitleDesc9 = new System.Windows.Forms.Label();
             this.txtTitle9 = new System.Windows.Forms.TextBox();
-            this.c = new System.Windows.Forms.Button();
+            this.btnUpdateEvent9 = new System.Windows.Forms.Button();
             this.lblTitle9 = new System.Windows.Forms.Label();
             this.lblEditFields9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -145,17 +145,18 @@
             this.txtTitle9.Size = new System.Drawing.Size(211, 20);
             this.txtTitle9.TabIndex = 94;
             // 
-            // c
+            // btnUpdateEvent9
             // 
-            this.c.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.c.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.c.Location = new System.Drawing.Point(41, 607);
-            this.c.Name = "c";
-            this.c.Size = new System.Drawing.Size(312, 45);
-            this.c.TabIndex = 92;
-            this.c.Text = "Update Event";
-            this.c.UseVisualStyleBackColor = false;
+            this.btnUpdateEvent9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnUpdateEvent9.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateEvent9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnUpdateEvent9.Location = new System.Drawing.Point(41, 607);
+            this.btnUpdateEvent9.Name = "btnUpdateEvent9";
+            this.btnUpdateEvent9.Size = new System.Drawing.Size(312, 45);
+            this.btnUpdateEvent9.TabIndex = 92;
+            this.btnUpdateEvent9.Text = "Update Event";
+            this.btnUpdateEvent9.UseVisualStyleBackColor = false;
+            this.btnUpdateEvent9.Click += new System.EventHandler(this.btnUpdateEvent9_Click);
             // 
             // lblTitle9
             // 
@@ -195,10 +196,11 @@
             this.Controls.Add(this.txtDate9);
             this.Controls.Add(this.lblTitleDesc9);
             this.Controls.Add(this.txtTitle9);
-            this.Controls.Add(this.c);
+            this.Controls.Add(this.btnUpdateEvent9);
             this.Controls.Add(this.lblTitle9);
             this.Name = "EventForm";
             this.Text = "EventForm";
+            this.Load += new System.EventHandler(this.EventForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,7 +218,7 @@
         private System.Windows.Forms.TextBox txtDate9;
         private System.Windows.Forms.Label lblTitleDesc9;
         private System.Windows.Forms.TextBox txtTitle9;
-        private System.Windows.Forms.Button c;
+        private System.Windows.Forms.Button btnUpdateEvent9;
         private System.Windows.Forms.Label lblTitle9;
         private System.Windows.Forms.Label lblEditFields9;
     }

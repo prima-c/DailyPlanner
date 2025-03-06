@@ -85,11 +85,6 @@
             // cmbEventList6
             // 
             this.cmbEventList6.FormattingEnabled = true;
-            this.cmbEventList6.Items.AddRange(new object[] {
-            "Meeting",
-            "Appointment",
-            "Exam",
-            "Deadline"});
             this.cmbEventList6.Location = new System.Drawing.Point(84, 365);
             this.cmbEventList6.Name = "cmbEventList6";
             this.cmbEventList6.Size = new System.Drawing.Size(226, 21);
@@ -108,6 +103,7 @@
             this.Controls.Add(this.lblTitle6);
             this.Name = "SeeEventsForm";
             this.Text = "SeeEventsForm";
+            this.Load += new System.EventHandler(this.SeeEventsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -146,6 +146,7 @@
             this.Controls.Add(this.lblTitle);
             this.Name = "MakeAccountForm";
             this.Text = "MakeAccountForm";
+            this.Load += new System.EventHandler(this.MakeAccountForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

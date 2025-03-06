@@ -19,7 +19,7 @@ namespace DailyPlanner
 
         private void DailyPlannerForm_Load(object sender, EventArgs e)
         {
-
+            this.CenterToScreen();
         }
     }
 }

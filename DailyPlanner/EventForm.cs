@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -44,13 +45,13 @@ namespace DailyPlanner
                             where ev.title == SelectedValue.ToString()
                             select new
                             {
-                                title = this.lblTitle9,
-                                type = this.lblType9,
-                                date = this.lblDate9,
-                                status = this.lblStatus9,
-                                desc = this.lblDesc9
+                                title = this.lblTitle9.ToString(),
+                                type = this.lblType9.ToString(),
+                                date = this.lblDate9.ToString(),
+                                status = this.lblStatus9.ToString(),
+                                desc = this.lblDesc9.ToString()
                             }).ToList();
-            /*
+            
             if (selected.Count > 0)
             {
                 this.lblTitle9.Text = selected[0].title;
@@ -59,7 +60,22 @@ namespace DailyPlanner
                 this.lblStatus9.Text = selected[0].status;
                 this.lblDesc9.Text = selected[0].desc;
             }
-            */
+            
+        }
+
+        private void btnUpdateEvent9_Click(object sender, EventArgs e)
+        {
+            //Close current form
+            this.Close();
+            //Create a thread to RUN a NEW application with the desired form
+            Thread t = new Thread(new ThreadStart(OpenMainPageForm));
+            t.Start();
+        }
+
+        private void OpenMainPageForm()
+        {
+            //RUNs a NEW application with the desired form
+            Application.Run(new MainPageForm());
         }
     }
 }

@@ -163,6 +163,7 @@
             this.Controls.Add(this.lblTitle5);
             this.Name = "SeeWeekForm";
             this.Text = "SeeWeekForm";
+            this.Load += new System.EventHandler(this.SeeWeekForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

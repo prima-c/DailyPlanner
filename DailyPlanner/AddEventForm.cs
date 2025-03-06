@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -34,8 +35,18 @@ namespace DailyPlanner
 
 
             // Add event
+            string title = txtTitle7.Text;
+            string type = cmbType7.Text;
+            string date = txtDate7.Text;
+            string status = cmbStatus7.Text;
+            string desc = txtDesc7.Text;
 
+            string file = CurrentPath.GetDatabasePath() + "\\" + "EventData.txt";
 
+            string addedEvent = $"\n{title}|{type}|{date}|{status}|{desc}";
+            System.IO.File.AppendAllText(file, addedEvent);
+
+            this.Hide();
 
             //Close current form
             this.Close();
