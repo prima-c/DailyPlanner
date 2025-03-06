@@ -62,7 +62,7 @@
             this.btnUpdateEvent7.Location = new System.Drawing.Point(41, 607);
             this.btnUpdateEvent7.Name = "btnUpdateEvent7";
             this.btnUpdateEvent7.Size = new System.Drawing.Size(312, 45);
-            this.btnUpdateEvent7.TabIndex = 73;
+            this.btnUpdateEvent7.TabIndex = 5;
             this.btnUpdateEvent7.Text = "Add Event";
             this.btnUpdateEvent7.UseVisualStyleBackColor = false;
             this.btnUpdateEvent7.Click += new System.EventHandler(this.btnUpdateEvent7_Click);
@@ -83,7 +83,7 @@
             this.txtTitle7.Location = new System.Drawing.Point(142, 256);
             this.txtTitle7.Name = "txtTitle7";
             this.txtTitle7.Size = new System.Drawing.Size(211, 20);
-            this.txtTitle7.TabIndex = 81;
+            this.txtTitle7.TabIndex = 0;
             // 
             // lblTitleDesc7
             // 
@@ -112,7 +112,7 @@
             this.txtDate7.Location = new System.Drawing.Point(127, 380);
             this.txtDate7.Name = "txtDate7";
             this.txtDate7.Size = new System.Drawing.Size(226, 20);
-            this.txtDate7.TabIndex = 83;
+            this.txtDate7.TabIndex = 2;
             // 
             // lblDesc7
             // 
@@ -130,7 +130,7 @@
             this.txtDesc7.Location = new System.Drawing.Point(127, 501);
             this.txtDesc7.Name = "txtDesc7";
             this.txtDesc7.Size = new System.Drawing.Size(226, 20);
-            this.txtDesc7.TabIndex = 86;
+            this.txtDesc7.TabIndex = 4;
             // 
             // cmbType7
             // 
@@ -143,7 +143,7 @@
             this.cmbType7.Location = new System.Drawing.Point(127, 321);
             this.cmbType7.Name = "cmbType7";
             this.cmbType7.Size = new System.Drawing.Size(226, 21);
-            this.cmbType7.TabIndex = 87;
+            this.cmbType7.TabIndex = 1;
             // 
             // lblType7
             // 
@@ -178,7 +178,7 @@
             this.cmbStatus7.Location = new System.Drawing.Point(167, 441);
             this.cmbStatus7.Name = "cmbStatus7";
             this.cmbStatus7.Size = new System.Drawing.Size(186, 21);
-            this.cmbStatus7.TabIndex = 90;
+            this.cmbStatus7.TabIndex = 3;
             // 
             // AddEventForm
             // 
