@@ -114,8 +114,7 @@ namespace DailyPlanner
 
         private void GetEvents()
         {
-            Event eventObj = new Event();
-            events = eventObj.GetEvents();
+            events = Event.GetEvents();
         }
 
         private void txtPwd_TextChanged(object sender, EventArgs e)

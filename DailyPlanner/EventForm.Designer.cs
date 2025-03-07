@@ -54,7 +54,7 @@
             this.cmbStatus9.Location = new System.Drawing.Point(167, 441);
             this.cmbStatus9.Name = "cmbStatus9";
             this.cmbStatus9.Size = new System.Drawing.Size(186, 21);
-            this.cmbStatus9.TabIndex = 103;
+            this.cmbStatus9.TabIndex = 3;
             // 
             // lblStatus9
             // 
@@ -89,14 +89,14 @@
             this.cmbType9.Location = new System.Drawing.Point(127, 321);
             this.cmbType9.Name = "cmbType9";
             this.cmbType9.Size = new System.Drawing.Size(226, 21);
-            this.cmbType9.TabIndex = 100;
+            this.cmbType9.TabIndex = 1;
             // 
             // txtDesc9
             // 
             this.txtDesc9.Location = new System.Drawing.Point(127, 501);
             this.txtDesc9.Name = "txtDesc9";
             this.txtDesc9.Size = new System.Drawing.Size(226, 20);
-            this.txtDesc9.TabIndex = 99;
+            this.txtDesc9.TabIndex = 4;
             // 
             // lblDesc9
             // 
@@ -125,7 +125,7 @@
             this.txtDate9.Location = new System.Drawing.Point(127, 380);
             this.txtDate9.Name = "txtDate9";
             this.txtDate9.Size = new System.Drawing.Size(226, 20);
-            this.txtDate9.TabIndex = 96;
+            this.txtDate9.TabIndex = 2;
             // 
             // lblTitleDesc9
             // 
@@ -143,7 +143,7 @@
             this.txtTitle9.Location = new System.Drawing.Point(142, 256);
             this.txtTitle9.Name = "txtTitle9";
             this.txtTitle9.Size = new System.Drawing.Size(211, 20);
-            this.txtTitle9.TabIndex = 94;
+            this.txtTitle9.TabIndex = 0;
             // 
             // btnUpdateEvent9
             // 
@@ -153,7 +153,7 @@
             this.btnUpdateEvent9.Location = new System.Drawing.Point(41, 607);
             this.btnUpdateEvent9.Name = "btnUpdateEvent9";
             this.btnUpdateEvent9.Size = new System.Drawing.Size(312, 45);
-            this.btnUpdateEvent9.TabIndex = 92;
+            this.btnUpdateEvent9.TabIndex = 5;
             this.btnUpdateEvent9.Text = "Update Event";
             this.btnUpdateEvent9.UseVisualStyleBackColor = false;
             this.btnUpdateEvent9.Click += new System.EventHandler(this.btnUpdateEvent9_Click);

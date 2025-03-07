@@ -37,6 +37,7 @@ namespace DailyPlanner
             Thread t = new Thread(new ThreadStart(OpenMainPageForm));
             t.Start();
         }
+
         private void OpenMainPageForm()
         {
             //RUNs a NEW application with the desired form
@@ -45,23 +46,22 @@ namespace DailyPlanner
 
         private void GetEvents()
         {
-            Event eventObj = new Event();
-            events = eventObj.GetEvents();
+            events = Event.GetEvents();
         }
 
         private void SetControls()
         {
             if (events.Count > 0)
-                {
-                    this.cmbEventList6.DataSource = events;
-                    this.cmbEventList6.DisplayMember = "Title";
-                    this.cmbEventList6.ValueMember = "Title";
-                }
+            {
+                    this.cboEventList6.DataSource = events;
+                    this.cboEventList6.DisplayMember = "Title";
+                    this.cboEventList6.ValueMember = "Title";
+            }
         }
 
         private void cmbEventList6_SelectedIndexChanged(object sender, EventArgs e)
         {
-            SelectedValue = cmbEventList6.Text;
+            SelectedValue = cboEventList6.Text;
             //Close current form
             this.Close();
             //Create a thread to RUN a NEW application with the desired form

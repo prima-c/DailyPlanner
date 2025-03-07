@@ -32,7 +32,7 @@
             this.btnMainPage6 = new System.Windows.Forms.Button();
             this.lblTitle6 = new System.Windows.Forms.Label();
             this.lblUpcomingEvents6 = new System.Windows.Forms.Label();
-            this.cmbEventList6 = new System.Windows.Forms.ComboBox();
+            this.cboEventList6 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnChangeDate5
@@ -82,21 +82,21 @@
             this.lblUpcomingEvents6.TabIndex = 71;
             this.lblUpcomingEvents6.Text = "Select an upcoming\r\nevent to view:";
             // 
-            // cmbEventList6
+            // cboEventList6
             // 
-            this.cmbEventList6.FormattingEnabled = true;
-            this.cmbEventList6.Location = new System.Drawing.Point(84, 365);
-            this.cmbEventList6.Name = "cmbEventList6";
-            this.cmbEventList6.Size = new System.Drawing.Size(226, 21);
-            this.cmbEventList6.TabIndex = 88;
-            this.cmbEventList6.SelectedIndexChanged += new System.EventHandler(this.cmbEventList6_SelectedIndexChanged);
+            this.cboEventList6.FormattingEnabled = true;
+            this.cboEventList6.Location = new System.Drawing.Point(84, 365);
+            this.cboEventList6.Name = "cboEventList6";
+            this.cboEventList6.Size = new System.Drawing.Size(226, 21);
+            this.cboEventList6.TabIndex = 88;
+            this.cboEventList6.SelectedIndexChanged += new System.EventHandler(this.cmbEventList6_SelectedIndexChanged);
             // 
             // SeeEventsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 706);
-            this.Controls.Add(this.cmbEventList6);
+            this.Controls.Add(this.cboEventList6);
             this.Controls.Add(this.lblUpcomingEvents6);
             this.Controls.Add(this.btnChangeDate5);
             this.Controls.Add(this.btnMainPage6);
@@ -115,6 +115,6 @@
         private System.Windows.Forms.Button btnMainPage6;
         private System.Windows.Forms.Label lblTitle6;
         private System.Windows.Forms.Label lblUpcomingEvents6;
-        private System.Windows.Forms.ComboBox cmbEventList6;
+        private System.Windows.Forms.ComboBox cboEventList6;
     }
 }
