@@ -33,6 +33,7 @@
             this.lblTitle6 = new System.Windows.Forms.Label();
             this.lblUpcomingEvents6 = new System.Windows.Forms.Label();
             this.cboEventList6 = new System.Windows.Forms.ComboBox();
+            this.btnEditEvent = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnChangeDate5
@@ -91,11 +92,22 @@
             this.cboEventList6.TabIndex = 88;
             this.cboEventList6.SelectedIndexChanged += new System.EventHandler(this.cmbEventList6_SelectedIndexChanged);
             // 
+            // btnEditEvent
+            // 
+            this.btnEditEvent.Location = new System.Drawing.Point(84, 425);
+            this.btnEditEvent.Name = "btnEditEvent";
+            this.btnEditEvent.Size = new System.Drawing.Size(226, 23);
+            this.btnEditEvent.TabIndex = 89;
+            this.btnEditEvent.Text = "Edit Event";
+            this.btnEditEvent.UseVisualStyleBackColor = true;
+            this.btnEditEvent.Click += new System.EventHandler(this.btnEditEvent_Click);
+            // 
             // SeeEventsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 706);
+            this.Controls.Add(this.btnEditEvent);
             this.Controls.Add(this.cboEventList6);
             this.Controls.Add(this.lblUpcomingEvents6);
             this.Controls.Add(this.btnChangeDate5);
@@ -116,5 +128,6 @@
         private System.Windows.Forms.Label lblTitle6;
         private System.Windows.Forms.Label lblUpcomingEvents6;
         private System.Windows.Forms.ComboBox cboEventList6;
+        private System.Windows.Forms.Button btnEditEvent;
     }
 }

@@ -32,9 +32,8 @@ namespace DailyPlanner.Services
                                 title = data[0],
                                 type = data[1],
                                 date = data[2],
-                                progress = data[3],
-                                recurring = data[4],
-                                description = data[5]
+                                status = data[3],
+                                description = data[4]
                             });
                         }
                     }
@@ -59,8 +58,8 @@ namespace DailyPlanner.Services
                     foreach (var d in data)
                     {
                         writer.WriteLine(d.title.ToString() + "\\" + d.type.ToString() + "\\" +
-                                         d.date.ToString() + "\\" + d.progress.ToString() + "\\" +
-                                         d.recurring.ToString() + "\\" + d.description.ToString());
+                                         d.date.ToString() + "\\" + d.status.ToString() + "\\" +
+                                         d.description.ToString());
 
                     }
                 }

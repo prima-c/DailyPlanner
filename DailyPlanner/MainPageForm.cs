@@ -66,6 +66,13 @@ namespace DailyPlanner
             //RUNs a NEW application with the desired form
             Application.Run(new SeeEventsForm());
         }
+
+        private void OpenSeeDayForm()
+        {
+            //RUNs a NEW application with the desired form
+            Application.Run(new SeeDayForm());
+        }
+
         private void btnSeeDay3_Click(object sender, EventArgs e)
         {
             //Close current form
@@ -73,11 +80,6 @@ namespace DailyPlanner
             //Create a thread to RUN a NEW application with the desired form
             Thread t = new Thread(new ThreadStart(OpenSeeDayForm));
             t.Start();
-        }
-        private void OpenSeeDayForm()
-        {
-            //RUNs a NEW application with the desired form
-            Application.Run(new SeeDayForm());
         }
 
         private void btnSeeWeek3_Click(object sender, EventArgs e)

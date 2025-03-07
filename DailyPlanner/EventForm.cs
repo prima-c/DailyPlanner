@@ -12,7 +12,7 @@ namespace DailyPlanner
     {
 
         List<Event> events = new List<Event>();
-        String SelectedValue = null;
+        string SelectedValue = null;
 
         public EventForm(string SelectedValue)
         {
@@ -24,6 +24,7 @@ namespace DailyPlanner
         {
             this.CenterToScreen();
             this.GetEvents();
+            this.SetControls();
         }
 
         private void GetEvents()
@@ -31,29 +32,24 @@ namespace DailyPlanner
             events = Event.GetEvents();
         }
 
-        private void SelectedEvent(object sender, EventArgs e)
-        {
-            
+        private void SetControls()
+        {            
+            //Populate Combo Boxes - To Do
+
+
+            //Populate the Controls
             var selected = (from ev in events
                             where ev.title == SelectedValue.ToString()
-                            select new
-                            {
-                                title = this.lblTitle9.ToString(),
-                                type = this.lblType9.ToString(),
-                                date = this.lblDate9.ToString(),
-                                status = this.lblStatus9.ToString(),
-                                desc = this.lblDesc9.ToString()
-                            }).ToList();
+                            select ev).ToList();
             
             if (selected.Count > 0)
             {
-                this.lblTitle9.Text = selected[0].title;
-                this.lblType9.Text = selected[0].type;
-                this.lblDate9.Text = selected[0].date;
-                this.lblStatus9.Text = selected[0].status;
-                this.lblDesc9.Text = selected[0].desc;
-            }
-            
+                this.txtTitle.Text = selected[0].title;
+                //this.cboType.SelectedText = selected[0].type;
+                this.txtDate.Text = selected[0].date;
+                //this.cboStatus.SelectedText= selected[0].status;
+                this.txtDesc.Text = selected[0].description;
+            }            
         }
 
         private void btnUpdateEvent9_Click(object sender, EventArgs e)

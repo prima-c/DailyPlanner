@@ -8,8 +8,7 @@ namespace DailyPlanner.Models
         public string title { get; set; }
         public string type { get; set; }
         public string date { get; set; }
-        public string progress { get; set; }
-        public string recurring { get; set; }
+        public string status { get; set; }
         public string description { get; set; }
 
         public Event()
