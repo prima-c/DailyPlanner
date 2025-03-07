@@ -94,12 +94,14 @@
             // 
             // btnEditEvent
             // 
-            this.btnEditEvent.Location = new System.Drawing.Point(84, 425);
+            this.btnEditEvent.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnEditEvent.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditEvent.Location = new System.Drawing.Point(41, 425);
             this.btnEditEvent.Name = "btnEditEvent";
-            this.btnEditEvent.Size = new System.Drawing.Size(226, 23);
+            this.btnEditEvent.Size = new System.Drawing.Size(312, 46);
             this.btnEditEvent.TabIndex = 89;
             this.btnEditEvent.Text = "Edit Event";
-            this.btnEditEvent.UseVisualStyleBackColor = true;
+            this.btnEditEvent.UseVisualStyleBackColor = false;
             this.btnEditEvent.Click += new System.EventHandler(this.btnEditEvent_Click);
             // 
             // SeeEventsForm
