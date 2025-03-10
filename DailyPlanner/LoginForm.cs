@@ -36,10 +36,10 @@ namespace DailyPlanner
 
         private bool PassedValidation()
         {
-            //if (this.txtUser1.Text.Trim().Length == 0 ||
-            //    this.txtPwd1.Text.Trim().Length == 0)
-            //    return false;
-            //else
+            if (this.txtUser1.Text.Trim().Length == 0 ||
+                this.txtPwd1.Text.Trim().Length == 0)
+                return false;
+            else
                 return true;
 
         }

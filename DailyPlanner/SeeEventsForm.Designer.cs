@@ -77,7 +77,7 @@
             this.lblUpcomingEvents6.AutoSize = true;
             this.lblUpcomingEvents6.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUpcomingEvents6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblUpcomingEvents6.Location = new System.Drawing.Point(52, 274);
+            this.lblUpcomingEvents6.Location = new System.Drawing.Point(52, 246);
             this.lblUpcomingEvents6.Name = "lblUpcomingEvents6";
             this.lblUpcomingEvents6.Size = new System.Drawing.Size(301, 60);
             this.lblUpcomingEvents6.TabIndex = 71;
@@ -86,7 +86,7 @@
             // cboEventList6
             // 
             this.cboEventList6.FormattingEnabled = true;
-            this.cboEventList6.Location = new System.Drawing.Point(84, 365);
+            this.cboEventList6.Location = new System.Drawing.Point(84, 337);
             this.cboEventList6.Name = "cboEventList6";
             this.cboEventList6.Size = new System.Drawing.Size(226, 21);
             this.cboEventList6.TabIndex = 88;
@@ -96,7 +96,7 @@
             // 
             this.btnEditEvent.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnEditEvent.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditEvent.Location = new System.Drawing.Point(41, 425);
+            this.btnEditEvent.Location = new System.Drawing.Point(41, 397);
             this.btnEditEvent.Name = "btnEditEvent";
             this.btnEditEvent.Size = new System.Drawing.Size(312, 46);
             this.btnEditEvent.TabIndex = 89;
