@@ -35,11 +35,11 @@ namespace DailyPlanner
 
 
             // Add event
-            string title = txtTitle7.Text;
-            string type = cmbType7.Text;
-            string date = txtDate7.Text;
-            string status = cmbStatus7.Text;
-            string desc = txtDesc7.Text;
+            string title = txtTitle.Text;
+            string type = cboType.Text;
+            string date = txtDate.Text;
+            string status = cboStatus.Text;
+            string desc = txtDesc.Text;
 
             string file = CurrentPath.GetDatabasePath() + "\\" + "EventData.txt";
 
@@ -57,8 +57,8 @@ namespace DailyPlanner
 
         private bool PassedValidation()
         {
-            if (this.txtTitle7.Text.Trim().Length == 0 ||
-                this.txtDate7.Text.Trim().Length == 0)
+            if (this.txtTitle.Text.Trim().Length == 0 ||
+                this.txtDate.Text.Trim().Length == 0)
                 return false;
             else
                 return true;

@@ -31,16 +31,16 @@
             this.lblCompleteFields7 = new System.Windows.Forms.Label();
             this.btnUpdateEvent7 = new System.Windows.Forms.Button();
             this.lblTitle7 = new System.Windows.Forms.Label();
-            this.txtTitle7 = new System.Windows.Forms.TextBox();
+            this.txtTitle = new System.Windows.Forms.TextBox();
             this.lblTitleDesc7 = new System.Windows.Forms.Label();
             this.lblDate7 = new System.Windows.Forms.Label();
-            this.txtDate7 = new System.Windows.Forms.TextBox();
+            this.txtDate = new System.Windows.Forms.TextBox();
             this.lblDesc7 = new System.Windows.Forms.Label();
-            this.txtDesc7 = new System.Windows.Forms.TextBox();
-            this.cmbType7 = new System.Windows.Forms.ComboBox();
+            this.txtDesc = new System.Windows.Forms.TextBox();
+            this.cboType = new System.Windows.Forms.ComboBox();
             this.lblType7 = new System.Windows.Forms.Label();
             this.lblStatus7 = new System.Windows.Forms.Label();
-            this.cmbStatus7 = new System.Windows.Forms.ComboBox();
+            this.cboStatus = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblCompleteFields7
@@ -78,12 +78,12 @@
             this.lblTitle7.TabIndex = 72;
             this.lblTitle7.Text = "Daily Planner";
             // 
-            // txtTitle7
+            // txtTitle
             // 
-            this.txtTitle7.Location = new System.Drawing.Point(142, 256);
-            this.txtTitle7.Name = "txtTitle7";
-            this.txtTitle7.Size = new System.Drawing.Size(211, 20);
-            this.txtTitle7.TabIndex = 0;
+            this.txtTitle.Location = new System.Drawing.Point(142, 256);
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(211, 20);
+            this.txtTitle.TabIndex = 0;
             // 
             // lblTitleDesc7
             // 
@@ -107,12 +107,12 @@
             this.lblDate7.TabIndex = 84;
             this.lblDate7.Text = "Date:";
             // 
-            // txtDate7
+            // txtDate
             // 
-            this.txtDate7.Location = new System.Drawing.Point(127, 380);
-            this.txtDate7.Name = "txtDate7";
-            this.txtDate7.Size = new System.Drawing.Size(226, 20);
-            this.txtDate7.TabIndex = 2;
+            this.txtDate.Location = new System.Drawing.Point(127, 380);
+            this.txtDate.Name = "txtDate";
+            this.txtDate.Size = new System.Drawing.Size(226, 20);
+            this.txtDate.TabIndex = 2;
             // 
             // lblDesc7
             // 
@@ -125,25 +125,25 @@
             this.lblDesc7.TabIndex = 85;
             this.lblDesc7.Text = "Desc:";
             // 
-            // txtDesc7
+            // txtDesc
             // 
-            this.txtDesc7.Location = new System.Drawing.Point(127, 501);
-            this.txtDesc7.Name = "txtDesc7";
-            this.txtDesc7.Size = new System.Drawing.Size(226, 20);
-            this.txtDesc7.TabIndex = 4;
+            this.txtDesc.Location = new System.Drawing.Point(127, 501);
+            this.txtDesc.Name = "txtDesc";
+            this.txtDesc.Size = new System.Drawing.Size(226, 20);
+            this.txtDesc.TabIndex = 4;
             // 
-            // cmbType7
+            // cboType
             // 
-            this.cmbType7.FormattingEnabled = true;
-            this.cmbType7.Items.AddRange(new object[] {
+            this.cboType.FormattingEnabled = true;
+            this.cboType.Items.AddRange(new object[] {
             "Meeting",
             "Appointment",
             "Exam",
             "Deadline"});
-            this.cmbType7.Location = new System.Drawing.Point(127, 321);
-            this.cmbType7.Name = "cmbType7";
-            this.cmbType7.Size = new System.Drawing.Size(226, 21);
-            this.cmbType7.TabIndex = 1;
+            this.cboType.Location = new System.Drawing.Point(127, 321);
+            this.cboType.Name = "cboType";
+            this.cboType.Size = new System.Drawing.Size(226, 21);
+            this.cboType.TabIndex = 1;
             // 
             // lblType7
             // 
@@ -167,34 +167,34 @@
             this.lblStatus7.TabIndex = 89;
             this.lblStatus7.Text = "Status:";
             // 
-            // cmbStatus7
+            // cboStatus
             // 
-            this.cmbStatus7.FormattingEnabled = true;
-            this.cmbStatus7.Items.AddRange(new object[] {
+            this.cboStatus.FormattingEnabled = true;
+            this.cboStatus.Items.AddRange(new object[] {
             "Not started",
             "In progress",
             "Complete",
             "Recurring"});
-            this.cmbStatus7.Location = new System.Drawing.Point(167, 441);
-            this.cmbStatus7.Name = "cmbStatus7";
-            this.cmbStatus7.Size = new System.Drawing.Size(186, 21);
-            this.cmbStatus7.TabIndex = 3;
+            this.cboStatus.Location = new System.Drawing.Point(167, 441);
+            this.cboStatus.Name = "cboStatus";
+            this.cboStatus.Size = new System.Drawing.Size(186, 21);
+            this.cboStatus.TabIndex = 3;
             // 
             // AddEventForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 706);
-            this.Controls.Add(this.cmbStatus7);
+            this.Controls.Add(this.cboStatus);
             this.Controls.Add(this.lblStatus7);
             this.Controls.Add(this.lblType7);
-            this.Controls.Add(this.cmbType7);
-            this.Controls.Add(this.txtDesc7);
+            this.Controls.Add(this.cboType);
+            this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.lblDesc7);
             this.Controls.Add(this.lblDate7);
-            this.Controls.Add(this.txtDate7);
+            this.Controls.Add(this.txtDate);
             this.Controls.Add(this.lblTitleDesc7);
-            this.Controls.Add(this.txtTitle7);
+            this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.lblCompleteFields7);
             this.Controls.Add(this.btnUpdateEvent7);
             this.Controls.Add(this.lblTitle7);
@@ -211,15 +211,15 @@
         private System.Windows.Forms.Label lblCompleteFields7;
         private System.Windows.Forms.Button btnUpdateEvent7;
         private System.Windows.Forms.Label lblTitle7;
-        private System.Windows.Forms.TextBox txtTitle7;
+        private System.Windows.Forms.TextBox txtTitle;
         private System.Windows.Forms.Label lblTitleDesc7;
         private System.Windows.Forms.Label lblDate7;
-        private System.Windows.Forms.TextBox txtDate7;
+        private System.Windows.Forms.TextBox txtDate;
         private System.Windows.Forms.Label lblDesc7;
-        private System.Windows.Forms.TextBox txtDesc7;
-        private System.Windows.Forms.ComboBox cmbType7;
+        private System.Windows.Forms.TextBox txtDesc;
+        private System.Windows.Forms.ComboBox cboType;
         private System.Windows.Forms.Label lblType7;
         private System.Windows.Forms.Label lblStatus7;
-        private System.Windows.Forms.ComboBox cmbStatus7;
+        private System.Windows.Forms.ComboBox cboStatus;
     }
 }
