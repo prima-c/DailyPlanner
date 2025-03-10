@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace DailyPlanner
 {
@@ -114,23 +115,25 @@ namespace DailyPlanner
 
         List<Event> events = new List<Event>();
 
-        private void GetEvents()
-        {
-            events = Event.GetEvents();
-        }
-
         private void txtPwd_TextChanged(object sender, EventArgs e)
         {
             String search = txtPwd.Text;
-            foreach (var ev in events)
-            {
-                if (ev.title.Contains(search))
-                {
-                    //Textbox displays suggested title
-                    txtPwd.Text = ev.title;
-                    return;
-                }
-            }
+            Debug.WriteLine("search " + search);
         }
+
+        //private void SetSearchControls()
+        //{
+
+        //    this.GetEvents();
+
+        //    var matching = events.FindAll(delegate (Event ev) { return ev.title.Contains(search); });
+
+        //    if (matching.Count > 0)
+        //    {
+        //        this.cboEventList6.DataSource = matching;
+        //        this.cboEventList6.DisplayMember = "Title";
+        //        this.cboEventList6.ValueMember = "Title";
+        //    }
+        //}
     }
 }

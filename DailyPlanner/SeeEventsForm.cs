@@ -61,6 +61,21 @@ namespace DailyPlanner
             }
         }
 
+        //private void SetSearchControls()
+        //{
+
+        //    this.GetEvents();
+
+        //    var matching = events.FindAll(delegate (Event ev) { return ev.title.Contains(search); });
+
+        //    if (matching.Count > 0)
+        //    {
+        //        this.cboEventList6.DataSource = matching;
+        //        this.cboEventList6.DisplayMember = "Title";
+        //        this.cboEventList6.ValueMember = "Title";
+        //    }
+        //}
+
         private void cmbEventList6_SelectedIndexChanged(object sender, EventArgs e)
         {
 
