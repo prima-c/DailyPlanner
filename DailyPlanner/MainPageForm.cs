@@ -16,6 +16,8 @@ namespace DailyPlanner
 {
     public partial class MainPageForm : Form
     {
+        string search = "";
+
         public MainPageForm()
         {
             InitializeComponent();
@@ -59,13 +61,14 @@ namespace DailyPlanner
             //Close current form
             this.Close();
             //Create a thread to RUN a NEW application with the desired form
+            search = "";
             Thread t = new Thread(new ThreadStart(OpenSeeEventsForm));
             t.Start();
         }
         private void OpenSeeEventsForm()
         {
             //RUNs a NEW application with the desired form
-            Application.Run(new SeeEventsForm());
+            Application.Run(new SeeEventsForm(search));
         }
 
         private void OpenSeeDayForm()
@@ -117,23 +120,19 @@ namespace DailyPlanner
 
         private void txtPwd_TextChanged(object sender, EventArgs e)
         {
-            String search = txtPwd.Text;
-            Debug.WriteLine("search " + search);
+            
         }
 
-        //private void SetSearchControls()
-        //{
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            search = txtPwd.Text;
+            Debug.WriteLine("search " + search);
 
-        //    this.GetEvents();
-
-        //    var matching = events.FindAll(delegate (Event ev) { return ev.title.Contains(search); });
-
-        //    if (matching.Count > 0)
-        //    {
-        //        this.cboEventList6.DataSource = matching;
-        //        this.cboEventList6.DisplayMember = "Title";
-        //        this.cboEventList6.ValueMember = "Title";
-        //    }
-        //}
+            //Close current form
+            this.Close();
+            //Create a thread to RUN a NEW application with the desired form
+            Thread t = new Thread(new ThreadStart(OpenSeeEventsForm));
+            t.Start();
+        }
     }
 }

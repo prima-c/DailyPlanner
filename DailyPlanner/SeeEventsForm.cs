@@ -17,10 +17,12 @@ namespace DailyPlanner
 
         List<Event> events = new List<Event>();
         public String SelectedValue = null;
+        public String search;
 
-        public SeeEventsForm()
+        public SeeEventsForm(string search)
         {
             InitializeComponent();
+            this.search = search;
         }
 
         private void SeeEventsForm_Load(object sender, EventArgs e)
@@ -53,11 +55,16 @@ namespace DailyPlanner
         {
             this.GetEvents();
 
+            if (search != "")
+            {
+                events = events.FindAll(delegate (Event ev) { return ev.title.Contains(search); });
+            }
+
             if (events.Count > 0)
             {
-                    this.cboEventList6.DataSource = events;
-                    this.cboEventList6.DisplayMember = "Title";
-                    this.cboEventList6.ValueMember = "Title";
+                this.cboEventList6.DataSource = events;
+                this.cboEventList6.DisplayMember = "Title";
+                this.cboEventList6.ValueMember = "Title";
             }
         }
 
