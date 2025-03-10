@@ -38,8 +38,6 @@ namespace DailyPlanner
         {
             //Populate Combo Boxes
 
-            Debug.WriteLine("Set controls " + SelectedValue.ToString());
-
             NameToEdit = SelectedValue.ToString();
 
             //Populate the Controls
@@ -81,7 +79,7 @@ namespace DailyPlanner
 
             foreach (Event ev in events)
             {
-                Debug.WriteLine(ev.title);
+                //Debug.WriteLine(ev.title);
                 
                 string eventString = $"{prefix}{ev.title}|{ev.type}|{ev.date}|{ev.status}|{ev.description}";
                 System.IO.File.AppendAllText(file, eventString);
@@ -91,19 +89,15 @@ namespace DailyPlanner
             // Add event
 
             string title = txtTitle.Text;
-            string type = cboType.SelectedText;
+            string type = cboType.Text;
             string date = txtDate.Text;
-            string status = cboStatus.SelectedText;
+            string status = cboStatus.Text;
             string description = txtDesc.Text;
+
+            //Debug.WriteLine("type " + type);
 
             string addedEvent = $"\n{title}|{type}|{date}|{status}|{description}";
             System.IO.File.AppendAllText(file, addedEvent);
-
-            Debug.WriteLine("UPdate " + SelectedValue.ToString());
-            Debug.WriteLine("B " + NameToEdit);
-
-            Debug.WriteLine("A " + txtTitle.Text);
-
 
             //selected[0].title = this.txtTitle.Text;
 
