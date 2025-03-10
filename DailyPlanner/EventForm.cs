@@ -36,8 +36,6 @@ namespace DailyPlanner
 
         private void SetControls()
         {
-            //Populate Combo Boxes
-
             NameToEdit = SelectedValue.ToString();
 
             //Populate the Controls
@@ -57,16 +55,6 @@ namespace DailyPlanner
 
         private void btnUpdateEvent9_Click(object sender, EventArgs e)
         {
-
-            //var selected = (from ev in events
-            //                where ev.title == SelectedValue.ToString()
-            //                select ev).ToList();
-
-            //Event event = from ev in events
-            //              where ev.title == SelectedValue.ToString()
-            //              select ev;
-
-
             string file = CurrentPath.GetDatabasePath() + "\\" + "EventData.txt";
 
             // Write all but old event
@@ -94,12 +82,8 @@ namespace DailyPlanner
             string status = cboStatus.Text;
             string description = txtDesc.Text;
 
-            //Debug.WriteLine("type " + type);
-
             string addedEvent = $"\n{title}|{type}|{date}|{status}|{description}";
             System.IO.File.AppendAllText(file, addedEvent);
-
-            //selected[0].title = this.txtTitle.Text;
 
             //Close current form
             this.Close();

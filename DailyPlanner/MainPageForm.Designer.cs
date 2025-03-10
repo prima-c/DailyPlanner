@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtPwd = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.lblSearch3 = new System.Windows.Forms.Label();
             this.lblTitle3 = new System.Windows.Forms.Label();
             this.lblSelectInst3 = new System.Windows.Forms.Label();
@@ -41,13 +41,13 @@
             this.btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtPwd
+            // txtSearch
             // 
-            this.txtPwd.Location = new System.Drawing.Point(42, 157);
-            this.txtPwd.Name = "txtPwd";
-            this.txtPwd.Size = new System.Drawing.Size(312, 20);
-            this.txtPwd.TabIndex = 31;
-            this.txtPwd.TextChanged += new System.EventHandler(this.txtPwd_TextChanged);
+            this.txtSearch.Location = new System.Drawing.Point(42, 157);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(312, 20);
+            this.txtSearch.TabIndex = 31;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtPwd_TextChanged);
             // 
             // lblSearch3
             // 
@@ -186,7 +186,7 @@
             this.Controls.Add(this.btnLogOut3);
             this.Controls.Add(this.btnChangePwd3);
             this.Controls.Add(this.lblSelectInst3);
-            this.Controls.Add(this.txtPwd);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.lblSearch3);
             this.Controls.Add(this.lblTitle3);
             this.Name = "MainPageForm";
@@ -199,7 +199,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtPwd;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label lblSearch3;
         private System.Windows.Forms.Label lblTitle3;
         private System.Windows.Forms.Label lblSelectInst3;

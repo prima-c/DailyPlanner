@@ -125,8 +125,8 @@ namespace DailyPlanner
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            search = txtPwd.Text;
-            Debug.WriteLine("search " + search);
+            search = txtSearch.Text;
+            //Debug.WriteLine("Searching for " + search);
 
             //Close current form
             this.Close();
