@@ -1,1 +1,6 @@
-﻿Test|Meeting|3/6/2025|In progress|Testing this app
+Test 5|Meeting|3/6/2025|Recurring|Testing this app
+Test 100|Deadline|3/30/2025|Recurring|Hoping it will work
+Test 6|Exam|3/6/2025|In progress|Testing this app
+Prima Test 5|Meeting|3/6/2025|Recurring|Testing this app
+Test Prima 100|Deadline|3/30/2025|Recurring|Hoping it will work
+Test 6 Prima|Exam|3/6/2025|In progress|Testing this app

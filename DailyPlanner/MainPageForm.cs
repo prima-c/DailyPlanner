@@ -10,11 +10,14 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace DailyPlanner
 {
     public partial class MainPageForm : Form
     {
+        string search = "";
+
         public MainPageForm()
         {
             InitializeComponent();
@@ -58,13 +61,14 @@ namespace DailyPlanner
             //Close current form
             this.Close();
             //Create a thread to RUN a NEW application with the desired form
+            search = "";
             Thread t = new Thread(new ThreadStart(OpenSeeEventsForm));
             t.Start();
         }
         private void OpenSeeEventsForm()
         {
             //RUNs a NEW application with the desired form
-            Application.Run(new SeeEventsForm());
+            Application.Run(new SeeEventsForm(search));
         }
 
         private void OpenSeeDayForm()
@@ -114,23 +118,21 @@ namespace DailyPlanner
 
         List<Event> events = new List<Event>();
 
-        private void GetEvents()
-        {
-            events = Event.GetEvents();
-        }
-
         private void txtPwd_TextChanged(object sender, EventArgs e)
         {
-            String search = txtPwd.Text;
-            foreach (var ev in events)
-            {
-                if (ev.title.Contains(search))
-                {
-                    //Textbox displays suggested title
-                    txtPwd.Text = ev.title;
-                    return;
-                }
-            }
+            
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            search = txtPwd.Text;
+            Debug.WriteLine("search " + search);
+
+            //Close current form
+            this.Close();
+            //Create a thread to RUN a NEW application with the desired form
+            Thread t = new Thread(new ThreadStart(OpenSeeEventsForm));
+            t.Start();
         }
     }
 }

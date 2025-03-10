@@ -38,11 +38,12 @@
             this.btnSeeEvents3 = new System.Windows.Forms.Button();
             this.btnSeeDay3 = new System.Windows.Forms.Button();
             this.btnSeeWeek3 = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtPwd
             // 
-            this.txtPwd.Location = new System.Drawing.Point(42, 147);
+            this.txtPwd.Location = new System.Drawing.Point(42, 157);
             this.txtPwd.Name = "txtPwd";
             this.txtPwd.Size = new System.Drawing.Size(312, 20);
             this.txtPwd.TabIndex = 31;
@@ -53,7 +54,7 @@
             this.lblSearch3.AutoSize = true;
             this.lblSearch3.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSearch3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblSearch3.Location = new System.Drawing.Point(37, 109);
+            this.lblSearch3.Location = new System.Drawing.Point(37, 119);
             this.lblSearch3.Name = "lblSearch3";
             this.lblSearch3.Size = new System.Drawing.Size(125, 30);
             this.lblSearch3.TabIndex = 28;
@@ -75,7 +76,7 @@
             this.lblSelectInst3.AutoSize = true;
             this.lblSelectInst3.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSelectInst3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblSelectInst3.Location = new System.Drawing.Point(78, 214);
+            this.lblSelectInst3.Location = new System.Drawing.Point(78, 236);
             this.lblSelectInst3.Name = "lblSelectInst3";
             this.lblSelectInst3.Size = new System.Drawing.Size(237, 30);
             this.lblSelectInst3.TabIndex = 32;
@@ -86,7 +87,7 @@
             this.btnLogOut3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnLogOut3.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogOut3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnLogOut3.Location = new System.Drawing.Point(42, 584);
+            this.btnLogOut3.Location = new System.Drawing.Point(42, 594);
             this.btnLogOut3.Name = "btnLogOut3";
             this.btnLogOut3.Size = new System.Drawing.Size(312, 45);
             this.btnLogOut3.TabIndex = 34;
@@ -99,7 +100,7 @@
             this.btnChangePwd3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnChangePwd3.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangePwd3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnChangePwd3.Location = new System.Drawing.Point(42, 520);
+            this.btnChangePwd3.Location = new System.Drawing.Point(42, 530);
             this.btnChangePwd3.Name = "btnChangePwd3";
             this.btnChangePwd3.Size = new System.Drawing.Size(312, 45);
             this.btnChangePwd3.TabIndex = 33;
@@ -112,7 +113,7 @@
             this.btnAddEvent3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnAddEvent3.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddEvent3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAddEvent3.Location = new System.Drawing.Point(42, 259);
+            this.btnAddEvent3.Location = new System.Drawing.Point(42, 281);
             this.btnAddEvent3.Name = "btnAddEvent3";
             this.btnAddEvent3.Size = new System.Drawing.Size(146, 90);
             this.btnAddEvent3.TabIndex = 35;
@@ -125,7 +126,7 @@
             this.btnSeeEvents3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnSeeEvents3.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeeEvents3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnSeeEvents3.Location = new System.Drawing.Point(208, 259);
+            this.btnSeeEvents3.Location = new System.Drawing.Point(208, 281);
             this.btnSeeEvents3.Name = "btnSeeEvents3";
             this.btnSeeEvents3.Size = new System.Drawing.Size(146, 90);
             this.btnSeeEvents3.TabIndex = 36;
@@ -138,7 +139,7 @@
             this.btnSeeDay3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnSeeDay3.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeeDay3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnSeeDay3.Location = new System.Drawing.Point(42, 363);
+            this.btnSeeDay3.Location = new System.Drawing.Point(42, 385);
             this.btnSeeDay3.Name = "btnSeeDay3";
             this.btnSeeDay3.Size = new System.Drawing.Size(146, 90);
             this.btnSeeDay3.TabIndex = 37;
@@ -151,7 +152,7 @@
             this.btnSeeWeek3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnSeeWeek3.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeeWeek3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnSeeWeek3.Location = new System.Drawing.Point(208, 363);
+            this.btnSeeWeek3.Location = new System.Drawing.Point(208, 385);
             this.btnSeeWeek3.Name = "btnSeeWeek3";
             this.btnSeeWeek3.Size = new System.Drawing.Size(146, 90);
             this.btnSeeWeek3.TabIndex = 38;
@@ -159,11 +160,25 @@
             this.btnSeeWeek3.UseVisualStyleBackColor = false;
             this.btnSeeWeek3.Click += new System.EventHandler(this.btnSeeWeek3_Click);
             // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnSearch.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSearch.Location = new System.Drawing.Point(233, 104);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(121, 45);
+            this.btnSearch.TabIndex = 39;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // MainPageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 706);
+            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnSeeWeek3);
             this.Controls.Add(this.btnSeeDay3);
             this.Controls.Add(this.btnSeeEvents3);
@@ -194,5 +209,6 @@
         private System.Windows.Forms.Button btnSeeEvents3;
         private System.Windows.Forms.Button btnSeeDay3;
         private System.Windows.Forms.Button btnSeeWeek3;
+        private System.Windows.Forms.Button btnSearch;
     }
 }
