@@ -1,5 +1,1 @@
-Bday Party|Meeting|3/6/2025|Completed|Testing this app
-English Quiz|Exam|3/30/2025|Not started|Hoping it will work
-Math Hmwk|Deadline|3/6/2025|In progress|Testing this app
-Eye Doctor|Appointment|3/6/2025|Recurring|Testing this app
-Biology Hmwk|Deadline|3/30/2025|Not started|Hoping it will work
+Bday Party|Meeting|3/6/2025|Completed|Write card

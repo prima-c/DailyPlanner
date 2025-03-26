@@ -36,8 +36,8 @@ namespace DailyPlanner
 
         private bool PassedValidation()
         {
-            if (this.txtUser1.Text.Trim().Length == 0 ||
-                this.txtPwd1.Text.Trim().Length == 0)
+            if (this.txtUser1.Text != "user123" ||
+                this.txtPwd1.Text != "ibstudents")
                 return false;
             else
                 return true;
